@@ -83,7 +83,6 @@ button {
 }
 .logo-head {
   margin-right: 76px;
-  padding: 24px 0;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -110,6 +109,9 @@ button {
 .nav-list {
   display: flex;
   gap: 40px;
+}
+.nav-list-link {
+  padding: 24px 0;
 }
 .list {
   list-style: none;
