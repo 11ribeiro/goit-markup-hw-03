@@ -110,9 +110,6 @@ button {
   display: flex;
   gap: 40px;
 }
-.nav-list-link {
-  padding: 24px 0;
-}
 .list {
   list-style: none;
   font-weight: 500;
@@ -120,6 +117,7 @@ button {
 
 .nav {
   color: var(--color-navy);
+  padding: 24px 0;
 }
 /* ================================/NAVIGATION================================ */
 /* ====================================ADDRESS================================ */
