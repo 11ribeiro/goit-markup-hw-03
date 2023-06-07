@@ -83,7 +83,7 @@ button {
 }
 .logo-head {
   margin-right: 76px;
-  padding-top: 5px;
+  padding: 24px 0;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -110,9 +110,6 @@ button {
 .nav-list {
   display: flex;
   gap: 40px;
-}
-.nav-list-link {
-  padding: 24px 0;
 }
 .list {
   list-style: none;
@@ -293,7 +290,6 @@ button {
   letter-spacing: 0.02em;
   color: var(--ghost-white);
   background-color: var(--color-navy);
-
   padding: 100px 0;
 }
 .footer-logo-link {
@@ -336,7 +332,7 @@ button {
 .filter-btn:focus {
   color: var(--color-white);
   background-color: var(--color-hover);
-  border: 1px solid;
+  border: 1px solid transparent;
 }
 
 .benefits-list {
