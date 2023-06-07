@@ -14,42 +14,48 @@
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
-
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
+
+    <title>Web Studio</title>
   </head>
   <body>
     <!-- HEADER -->
     <header>
-      <div class="page-header-container container">
+      <div class="header-container container">
         <!-- NAVIGATION -->
         <nav class="navigation">
-          <a href="./index.html" class="logo link logo-head"
+          <a href="./index.html" class="logo-head logo link"
             >Web<span class="logo-header">Studio</span></a
           >
-          <ul class="nav list">
-            <li class="nav-list">
-              <a href="./index.html" class="nav link">Studio</a>
+          <ul class="nav-list list">
+            <li class="nav-list-link">
+              <a href="./index.html" class="nav link link-hover">Studio</a>
             </li>
-            <li class="nav-list">
-              <a href="./portfolio.html" class="nav link">Portfolio</a>
+            <li class="nav-list-link list">
+              <a href="./portfolio.html" class="nav link link-hover"
+                >Portfolio</a
+              >
             </li>
-            <li class="nav-list">
+            <li class="nav-list-link">
               <a href="" class="nav link">Contacts</a>
             </li>
           </ul>
         </nav>
         <!-- /NAVIGATION -->
         <!-- ADDRESS -->
-        <address class="contact-address">
-          <ul class="address list">
-            <li class="address-list">
-              <a href="mailto:info@devstudio.com" class="contact link mail-link"
+        <address class="address-contact">
+          <ul class="address-list list">
+            <li class="address-list-link">
+              <a
+                href="mailto:info@devstudio.com"
+                class="mail-link contact link link-hover"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="address-list">
-              <a href="tel:+110001111111" class="contact link number-link"
+            <li class="address-list-link">
+              <a
+                href="tel:+110001111111"
+                class="number-link contact link link-hover"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -58,45 +64,44 @@
         <!-- /ADDRESS -->
       </div>
     </header>
-    <!-- HEADER -->
-    <!-- MAIN -->
+    <!-- /HEADER -->
     <main>
-      <!-- SECTION-HERO #1 -->
+      <!-- HERO SECTION -->
       <section class="hero">
         <div class="hero-container container">
           <h1 class="hero-text">Effective Solutions for Your Business</h1>
           <button type="button" class="primary-btn">Order Service</button>
         </div>
       </section>
-      <!-- /SECTION-HERO -->
-      <!-- SECTION-ADVANTAGES #2 -->
+      <!-- /HERO SECTION -->
+      <!-- ADVANTAGES SECTION -->
       <section class="advantages">
         <div class="adv-container container">
-          <h2 hidden class="adv-head">Advantages</h2>
-          <ul class="adv list">
-            <li class="adv-list">
-              <h3 class="adv-main-head main-head">Strategy</h3>
+          <h2 hidden class="adv-header">Advantages</h2>
+          <ul class="adv-list list">
+            <li class="adv-list-item">
+              <h3 class="adv-title main-title">Strategy</h3>
               <p class="adv-text main-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="adv-list">
-              <h3 class="adv-main-head main-head">Punctuality</h3>
+            <li class="adv-list-item">
+              <h3 class="adv-title main-title">Punctuality</h3>
               <p class="adv-text main-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li class="adv-list">
-              <h3 class="adv-main-head main-head">Diligence</h3>
+            <li class="adv-list-item">
+              <h3 class="adv-title main-title">Diligence</h3>
               <p class="adv-text main-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li class="adv-list">
-              <h3 class="adv-main-head main-head">Technologies</h3>
+            <li class="adv-list-item">
+              <h3 class="adv-title main-title">Technologies</h3>
               <p class="adv-text main-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -105,13 +110,13 @@
           </ul>
         </div>
       </section>
-      <!-- /SECTION-ADVANTAGES -->
-      <!-- SECTION-FEATURES #3 -->
+      <!-- /ADVANTAGES SECTION -->
+      <!-- FEATURES SECTION -->
       <section class="features">
         <div class="features-container container">
-          <h2 class="features-head">What are we doing</h2>
-          <ul class="feat list">
-            <li class="feat-list">
+          <h2 class="features-header">What are we doing</h2>
+          <ul class="features-list list">
+            <li class="feat-list-item">
               <img
                 src="./images/pc.jpg"
                 alt="personal computer"
@@ -119,7 +124,7 @@
                 height="300"
               />
             </li>
-            <li class="feat-list">
+            <li class="feat-list-item">
               <img
                 src="./images/smartphones.jpg"
                 alt="smartphones"
@@ -127,7 +132,7 @@
                 height="300"
               />
             </li>
-            <li class="feat-list">
+            <li class="feat-list-item">
               <img
                 src="./images/pcwithsmartphones.jpg"
                 alt="smartphones with personal computer"
@@ -138,70 +143,70 @@
           </ul>
         </div>
       </section>
-      <!-- /SECTION-FEATURES -->
-      <!-- SECTION-TEAM #4 -->
+      <!-- /FEATURES SECTION -->
+      <!-- TEAM SECTION -->
       <section class="team">
         <div class="team-container container">
-          <h2 class="team-head">Our Team</h2>
-          <ul class="team-back list">
-            <li class="team-list">
+          <h2 class="team-header">Our Team</h2>
+          <ul class="team-list list">
+            <li class="team-list-card">
               <img
                 src="./images/markguerrero.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
               />
-              <div class="card-content">
-                <h3 class="team-first-head">Mark Guerrero</h3>
+              <div class="team-card-content">
+                <h3 class="team-title">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
               </div>
             </li>
-            <li class="team-list">
+            <li class="team-list-card">
               <img
                 src="./images/tomford.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
               />
-              <div class="card-content">
-                <h3 class="team-first-head">Tom Ford</h3>
+              <div class="team-card-content">
+                <h3 class="team-title">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
               </div>
             </li>
-            <li class="team-list">
+            <li class="team-list-card">
               <img
                 src="./images/camilagarcia.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
               />
-              <div class="card-content">
-                <h3 class="team-first-head">Camila Garcia</h3>
+              <div class="team-card-content">
+                <h3 class="team-title">Camila Garcia</h3>
                 <p class="team-text">Marketing</p>
               </div>
             </li>
-            <li class="team-list">
+            <li class="team-list-card">
               <img
                 src="./images/danielwilson.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
               />
-              <div class="card-content">
-                <h3 class="team-first-head">Daniel Wilson</h3>
+              <div class="team-card-content">
+                <h3 class="team-title">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
-      <!-- /SECTION-TEAM -->
+      <!-- /TEAM SECTION -->
     </main>
     <!-- /MAIN -->
     <!-- FOOTER -->
     <footer class="footer">
       <div class="footer-container container">
-        <div class="footer-data-container">
+        <div class="footer-container-content">
           <a href="./index.html" class="logo link"
             >Web<span class="logo-footer">Studio</span></a
           >

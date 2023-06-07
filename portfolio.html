@@ -10,41 +10,52 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
+
+    <title>Portfolio</title>
   </head>
   <body>
     <!-- HEADER -->
     <header>
-      <div class="page-header-container container">
+      <div class="header-container container">
         <!-- NAVIGATION -->
         <nav class="navigation">
-          <a href="./index.html" class="logo link logo-head"
+          <a href="./index.html" class="logo-head logo link"
             >Web<span class="logo-header">Studio</span></a
           >
-          <ul class="nav list">
-            <li class="nav-list">
-              <a href="./index.html" class="nav link">Studio</a>
+          <ul class="nav-list list">
+            <li class="nav-list-link">
+              <a href="./index.html" class="nav link link-hover">Studio</a>
             </li>
-            <li class="nav-list">
-              <a href="./portfolio.html" class="nav link">Portfolio</a>
+            <li class="nav-list-link">
+              <a href="./portfolio.html" class="nav link link-hover"
+                >Portfolio</a
+              >
             </li>
-            <li class="nav-list">
+            <li class="nav-list-link">
               <a href="" class="nav link">Contacts</a>
             </li>
           </ul>
         </nav>
         <!-- /NAVIGATION -->
         <!-- ADDRESS -->
-        <address class="contact-address">
-          <ul class="address list">
-            <li class="address-list">
-              <a href="mailto:info@devstudio.com" class="contact link mail-link"
+        <address class="address-contact">
+          <ul class="address-list list">
+            <li class="address-list-link">
+              <a
+                href="mailto:info@devstudio.com"
+                class="mail-link contact link link-hover"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="address-list">
-              <a href="tel:+110001111111" class="contact link number-link"
+            <li class="address-list-link">
+              <a
+                href="tel:+110001111111"
+                class="number-link contact link link-hover"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -53,175 +64,167 @@
         <!-- /ADDRESS -->
       </div>
     </header>
-    <!-- HEADER -->
-    <!-- SECTION-MAIN -->
+    <!-- /HEADER -->
+    <!-- MAIN SECTION -->
     <main>
-      <section class="filter-section">
-        <div class="filter container">
-          <h1 hidden class="main-head">Privileges</h1>
-          <div class="filter-container">
-            <ul class="button-list list">
-              <li class="btn-list">
-                <button type="button" class="secondary-btn">All</button>
-              </li>
-              <li class="btn-list">
-                <button type="button" class="secondary-btn">Web Site</button>
-              </li>
-              <li class="btn-list">
-                <button type="button" class="secondary-btn">App</button>
-              </li>
-              <li class="btn-list">
-                <button type="button" class="secondary-btn">Design</button>
-              </li>
-              <li class="btn-list">
-                <button type="button" class="secondary-btn">Marketing</button>
-              </li>
-            </ul>
-          </div>
-          <div class="privileges-container">
-            <ul class="privileges list">
-              <li class="privileges-link link">
-                <a href="" class="priv link">
-                  <img
-                    src="./images/banking.jpg"
-                    alt="application-interface"
-                    width="360"
-                    height="300"
-                  />
-                  <div class="priv-cards">
-                    <h2 class="privileges-head main-head">
-                      Banking App Interface Concept
-                    </h2>
-                    <p class="priviliges-text main-text">App</p>
-                  </div>
-                </a>
-              </li>
-              <li class="privileges-link link">
-                <a href="" class="priv link">
-                  <img
-                    src="./images/cashless.jpg"
-                    alt="cashless-payment"
-                    width="360"
-                    height="300"
-                  />
-                  <div class="priv-cards">
-                    <h2 class="privileges-head main-head">Cashless Payment</h2>
-                    <p class="priviliges-text main-text">Marketing</p>
-                  </div>
-                </a>
-              </li>
-              <li class="privileges-link link">
-                <a href="" class="priv link">
-                  <img
-                    src="./images/app.jpg"
-                    alt="laptop-with-open-app"
-                    width="360"
-                    height="300"
-                  />
-                  <div class="priv-cards">
-                    <h2 class="privileges-head main-head">Meditation App</h2>
-                    <p class="priviliges-text main-text">App</p>
-                  </div>
-                </a>
-              </li>
-              <li class="privileges-link link">
-                <a href="" class="priv link">
-                  <img
-                    src="./images/taxi.jpg"
-                    alt="man-handling-the-wheel"
-                    width="360"
-                    height="300"
-                  />
-                  <div class="priv-cards">
-                    <h2 class="privileges-head main-head">Taxi Service</h2>
-                    <p class="priviliges-text main-text">Marketing</p>
-                  </div>
-                </a>
-              </li>
-              <li class="privileges-link link">
-                <a href="" class="priv link">
-                  <img
-                    src="./images/screen.jpg"
-                    alt="screen-illustrations"
-                    width="360"
-                    height="300"
-                  />
-                  <div class="priv-cards">
-                    <h2 class="privileges-head main-head">
-                      Screen Illustrations
-                    </h2>
-                    <p class="priviliges-text main-text">Design</p>
-                  </div>
-                </a>
-              </li>
-              <li class="privileges-link link">
-                <a href="" class="priv link">
-                  <img
-                    src="./images/online.jpg"
-                    alt="girl-using-a-phone"
-                    width="360"
-                    height="300"
-                  />
-                  <div class="priv-cards">
-                    <h2 class="privileges-head main-head">Online Courses</h2>
-                    <p class="priviliges-text main-text">Marketing</p>
-                  </div>
-                </a>
-              </li>
-              <li class="privileges-link link">
-                <a href="" class="priv link">
-                  <img
-                    src="./images/instagram.jpg"
-                    alt="instagram-stories"
-                    width="360"
-                    height="300"
-                  />
-                  <div class="priv-cards">
-                    <h2 class="privileges-head main-head">
-                      Instagram Stories Concept
-                    </h2>
-                    <p class="priviliges-text main-text">Design</p>
-                  </div>
-                </a>
-              </li>
-              <li class="privileges-link link">
-                <a href="" class="priv link">
-                  <img
-                    src="./images/food.jpg"
-                    alt="girl-carring-a-bag-with-food"
-                    width="360"
-                    height="300"
-                  />
-                  <div class="priv-cards">
-                    <h2 class="privileges-head main-head">Organic Food</h2>
-                    <p class="priviliges-text main-text">Web Site</p>
-                  </div>
-                </a>
-              </li>
-              <li class="privileges-link link">
-                <a href="" class="priv link">
-                  <img
-                    src="./images/coffee.jpg"
-                    alt="man-making-a-coffee"
-                    width="360"
-                    height="300"
-                  />
-                  <div class="priv-cards">
-                    <h2 class="privileges-head main-head">Fresh Coffee</h2>
-                    <p class="priviliges-text main-text">Web Site</p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <section class="portfolio-section container">
+        <h1 hidden class="main-header">Privileges</h1>
+        <ul class="filter-list list">
+          <li class="filter-list-item">
+            <button type="button" class="filter-btn">All</button>
+          </li>
+          <li class="filter-list-item">
+            <button type="button" class="filter-btn">Web Site</button>
+          </li>
+          <li class="filter-list-item">
+            <button type="button" class="filter-btn">App</button>
+          </li>
+          <li class="filter-list-item">
+            <button type="button" class="filter-btn">Design</button>
+          </li>
+          <li class="filter-list-item">
+            <button type="button" class="filter-btn">Marketing</button>
+          </li>
+        </ul>
+        <ul class="benefits-list list">
+          <li class="benefits-list-card link">
+            <a href="" class="banefits-link link">
+              <img
+                src="./images/banking.jpg"
+                alt="application-interface"
+                width="360"
+                height="300"
+              />
+              <div class="benefits-card-content">
+                <h2 class="benefits-title main-title">
+                  Banking benefitsace Concept
+                </h2>
+                <p class="priviliges-text main-text">App</p>
+              </div>
+            </a>
+          </li>
+          <li class="benefits-list-card link">
+            <a href="" class="banefits-link link">
+              <img
+                src="./images/cashless.jpg"
+                alt="cashless-payment"
+                width="360"
+                height="300"
+              />
+              <div class="benefits-card-content">
+                <h2 class="benefits-title main-title">Cashless Payment</h2>
+                <p class="benefits-text main-text">Marketing</p>
+              </div>
+            </a>
+          </li>
+          <li class="benefits-list-card link">
+            <a href="" class="banefits-link link">
+              <img
+                src="./images/app.jpg"
+                alt="laptop-with-open-app"
+                width="360"
+                height="300"
+              />
+              <div class="benefits-card-content">
+                <h2 class="benefits-title main-title">Meditation App</h2>
+                <p class="benefits-text main-text">App</p>
+              </div>
+            </a>
+          </li>
+          <li class="benefits-list-card link">
+            <a href="" class="banefits-link link">
+              <img
+                src="./images/taxi.jpg"
+                alt="man-handling-the-wheel"
+                width="360"
+                height="300"
+              />
+              <div class="benefits-card-content">
+                <h2 class="benefits-title main-title">Taxi Service</h2>
+                <p class="benefits-text main-text">Marketing</p>
+              </div>
+            </a>
+          </li>
+          <li class="benefits-list-card link">
+            <a href="" class="banefits-link link">
+              <img
+                src="./images/screen.jpg"
+                alt="screen-illustrations"
+                width="360"
+                height="300"
+              />
+              <div class="benefits-card-content">
+                <h2 class="benefits-title main-title">Screen Illustrations</h2>
+                <p class="benefits-text main-text">Design</p>
+              </div>
+            </a>
+          </li>
+          <li class="benefits-list-card link">
+            <a href="" class="banefits-link link">
+              <img
+                src="./images/online.jpg"
+                alt="girl-using-a-phone"
+                width="360"
+                height="300"
+              />
+              <div class="benefits-card-content">
+                <h2 class="benefits-title main-title">Online Courses</h2>
+                <p class="benefits-text main-text">Marketing</p>
+              </div>
+            </a>
+          </li>
+          <li class="benefits-list-card link">
+            <a href="" class="banefits-link link">
+              <img
+                src="./images/instagram.jpg"
+                alt="instagram-stories"
+                width="360"
+                height="300"
+              />
+              <div class="benefits-card-content">
+                <h2 class="benefits-title main-title">
+                  InstagrabenefitsConcept
+                </h2>
+                <p class="priviliges-text main-text">Design</p>
+              </div>
+            </a>
+          </li>
+          <li class="benefits-list-card link">
+            <a href="" class="banefits-link link">
+              <img
+                src="./images/food.jpg"
+                alt="girl-carring-a-bag-with-food"
+                width="360"
+                height="300"
+              />
+              <div class="benefits-card-content">
+                <h2 class="benefits-title main-title">Organic Food</h2>
+                <p class="benefits-text main-text">Web Site</p>
+              </div>
+            </a>
+          </li>
+          <li class="benefits-list-card link">
+            <a href="" class="banefits-link link">
+              <img
+                src="./images/coffee.jpg"
+                alt="man-making-a-coffee"
+                width="360"
+                height="300"
+              />
+              <div class="benefits-card-content">
+                <h2 class="benefits-title main-title">Fresh Coffee</h2>
+                <p class="benefits-text main-text">Web Site</p>
+              </div>
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
-    <!-- /SECTION-MAIN -->
+    <!-- /MAIN SECTION -->
     <!-- FOOTER -->
     <footer class="footer">
       <div class="footer-container container">
-        <div class="footer-data-container">
+        <div class="footer-container-content">
           <a href="./index.html" class="logo link"
             >Web<span class="logo-footer">Studio</span></a
           >
