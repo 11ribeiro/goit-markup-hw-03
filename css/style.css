@@ -181,13 +181,13 @@ address {
 .advantages {
   padding: 120px 0;
 }
-.adv-list {
+.advan-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
 }
-.adv-list-item {
+.advan-list-item {
   flex-basis: calc((100% - 72px) / 4);
 }
 .main-title {
